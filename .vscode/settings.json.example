@@ -7,11 +7,11 @@
         "IDF_CCACHE_ENABLE": "1",
         "ESP_ROM_ELF_DIR": "C:\\Espressif\\tools\\esp-rom-elfs\\20230320/"
     },
-    "idf.espIdfPathWin": "C:/Users/reinis/source/repos/esp-idf-v5.2.1/",
+    "idf.espIdfPathWin": "<path-to-your-esp-idf-v5.2.1-checkout>",
     "idf.openOcdConfigs": [
         "board/esp32-bridge.cfg"
     ],
-    "idf.portWin": "COM4",
+    "idf.portWin": "<your-COM-port, e.g. COM4>",
     "idf.pythonBinPathWin": "C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe",
     "idf.toolsPathWin": "C:\\Espressif",
     "idf.flashType": "UART",

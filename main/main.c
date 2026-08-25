@@ -512,22 +512,6 @@ void app_main(void) {
     ESP_ERROR_CHECK(adc1_config_width(ADC_WIDTH));
     ESP_ERROR_CHECK(adc1_config_channel_atten(ADC_CHANNEL, ADC_ATTEN));
 
-    /*while (1) {
-        // Turn on both GPIO pins
-        gpio_set_level(GPIO_SOLID_STATE_RELAY_12V, 1);
-        gpio_set_level(GPIO_SOLID_STATE_RELAY_CHARGE, 0);
-
-        // Wait for 50 milliseconds
-        vTaskDelay(pdMS_TO_TICKS(1000));
-
-        // Turn off both GPIO pins
-        gpio_set_level(GPIO_SOLID_STATE_RELAY_12V, 0);
-        gpio_set_level(GPIO_SOLID_STATE_RELAY_CHARGE, 1);
-
-        // Wait for 50 milliseconds
-        vTaskDelay(pdMS_TO_TICKS(1000));
-    }*/
-
     /*
      * Prepare and set configuration of timers
      * that will be used by LED Controller
